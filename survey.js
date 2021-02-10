@@ -4,7 +4,7 @@ const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout
 });
-
+console.log(rl.output)
 rl.question("What's your name? Nicknames are also acceptable :) ", (answer) => {
   console.log(`Thank you for your valuable feedback: ${answer}`);
 
